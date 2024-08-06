@@ -5,6 +5,8 @@ Here is a code framework for training/fine-tuning CNN models on the Fitzpatrick1
 This project was created during the summer of 2024, as part of my internship at Vanderbilt Unviersity's Department of Biomedical Informatics. I worked under the guidance of Nick Jackson and Brad Malin, Ph.D. Here's a link to a detailed abstract for this project: https://docs.google.com/document/d/1mMhQsGaLSjYJF6nK6eZ1HJTuFkaeKqSj93CbP0b_BiI/edit 
 
 ## Getting Started
+The processed and ready-to-use fitzpatrick17k dataset as well as the synthetic data generated for this project are located here: https://drive.google.com/drive/folders/1OWHdBwBSMSHbGITWz096SQebDhamxRdy?usp=sharing
+
 
 ### Data Processing
 Use the included files to generate new image directories & csv files for various levels of oversampling and synthetic augmentation. Remember to change ratio as needed and to copy in original images into the directory after creation.
