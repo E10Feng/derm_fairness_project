@@ -12,7 +12,7 @@ The processed and ready-to-use fitzpatrick17k dataset as well as the synthetic d
 Use the included files to generate new image directories & csv files for various levels of oversampling and synthetic augmentation. Remember to change ratio as needed and to copy in original images into the directory after creation.
 
 ### Synthetic Data
-Synthetic data was generated using StyleGANV3-R (https://github.com/NVlabs/stylegan3) with images resized to 256x256 pixels, a batch size of 32, and gamma=2 using 4XXX GPUs. Training was stopped after the model had 'seen' 15,000,000 images, achieving an FID of 8.73. All other parameters were left as the default parameters of the StyleGAN repo.
+Synthetic data was generated using StyleGANV3-R (https://github.com/NVlabs/stylegan3) with images resized to 256x256 pixels, a batch size of 32, and gamma=2 using 4 A6000 GPUs. Training was stopped after the model had 'seen' 15,000,000 images, achieving an FID of 8.73. All other parameters were left as the default parameters of the StyleGAN repo.
 
 ### Classifier
 Make sure to update all paths to match your set up! 
